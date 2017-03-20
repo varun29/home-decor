@@ -1,0 +1,229 @@
+<html>
+
+<head>
+    <title>Sofa Cover</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.css">
+    <script src="https://use.fontawesome.com/e6e1ced5c2.js"></script>
+
+    <style></style>
+</head>
+
+<body>
+
+    <div>
+        <section class="section hero is-dark is-bold">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns ">
+                        <div class="column is-3">
+                            <a href="../index.html">
+                                <h1 class="title">HOME DECOR</h1>
+                                <h2 class="subtitle">Turning Homes Into Heavens</h2>
+                            </a>
+                        </div>
+                        <div class="column is-6">
+                            <div class="control is-grouped">
+                                <input class="input" type="text" placeholder="What your heaven needs today?">
+                                <a class="button is-info">
+                                    <span class="icon">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                                    <span>Search</span>
+                                </a>
+                            </div>
+                            <nav class="nav">
+                                <div class="nav-center nav-menu">
+                                    <a href="/" class="nav-item is-active">Home</a>
+                                    <% for(var i=0; i<nav.length; i++){%>
+                                        <li>
+                                            <a href="<%= nav[i].Link %>" class="nav-item is-active">
+                                                <%= nav[i].Text %>
+                                            </a>
+                                        </li>
+                                        <% } %>
+
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="column is-3">
+                            <div class="control is-grouped">
+                                <p class="control">
+                                    <a class="button is-dark">
+                                        <span class="icon">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </span>
+                                        <span>Cart</span>
+
+                                    </a>
+                                </p>
+                                <p class="control">
+                                    <a class="button is-dark">
+                                        <span class="icon">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                        <span>Log In/ Sign Up</span>
+                                    </a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="heading">
+                <h1 class="title">Seat Back</h1>
+                <h2 class="subtitle">2*3pc + 4*1pc</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <% for(var i=0; i<pics.length; i++) { %>
+                    <div class="column is-3">
+                        <a href='/SofaCovers/<%= i %>'>
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-16by9">
+                                        <img src="<%= pics[i].url %>" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="content">
+                                    <p class="subtitle">
+                                        <%= pics[i].uid %>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <% } %>
+            </div>
+        </div>
+        <div class="container">
+            <div class="columns">
+                <% for(var i=0; i<pics.length; i++) { %>
+                    <div class="column is-3">
+                        <a href='/SofaCovers/<%= i %>'>
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-16by9">
+                                        <img src="<%= pics[i].url %>" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="content">
+                                    <p class="subtitle">
+                                        <%= pics[i].uid %>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <% } %>
+            </div>
+        </div>
+        <div class="container">
+            <div class="columns">
+                <% for(var i=0; i<pics.length; i++) { %>
+                    <div class="column is-3">
+                        <a href='/SofaCovers/<%= i %>'>
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-16by9">
+                                        <img src="<%= pics[i].url %>" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="content">
+                                    <p class="subtitle">
+                                        <%= pics[i].uid %>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <% } %>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="heading">
+                <h1 class="title">Seat Back Arms</h1>
+                <h2 class="subtitle">2*3pc + 10*1pc</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <% for(var i=0; i<pics.length; i++) { %>
+                    <div class="column is-3">
+                        <a href='/SofaCovers/<%= i %>'>
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-16by9">
+                                        <img src="<%= pics[i].url %>" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="content">
+                                    <p class="subtitle">
+                                        <%= pics[i].uid %>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <% } %>
+            </div>
+        </div>
+        <div class="container">
+            <div class="columns">
+                <% for(var i=0; i<pics.length; i++) { %>
+                    <div class="column is-3">
+                        <a href='/SofaCovers/<%= i %>'>
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-16by9">
+                                        <img src="<%= pics[i].url %>" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="content">
+                                    <p class="subtitle">
+                                        <%= pics[i].uid %>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <% } %>
+            </div>
+        </div>
+        <div class="container">
+            <div class="columns">
+                <% for(var i=0; i<pics.length; i++) { %>
+                    <div class="column is-3">
+                        <a href='/SofaCovers/<%= i %>'>
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-16by9">
+                                        <img src="<%= pics[i].url %>" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="content">
+                                    <p class="subtitle">
+                                        <%= pics[i].uid %>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <% } %>
+            </div>
+        </div>
+    </section>
+
+</body>
